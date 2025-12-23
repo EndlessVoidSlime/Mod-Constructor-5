@@ -17,7 +17,7 @@ namespace Constructor5.LootActionTypes.Traits
 
         [AutoTuneComplexChance]
         public ComplexChance Chance { get; set; } = new ComplexChance();
-
+       [AutoTuneEnum("subject")]
         public string Participant { get; set; }
         public Reference Trait { get; set; } = new Reference();
 
