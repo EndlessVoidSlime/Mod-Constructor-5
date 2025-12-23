@@ -795,7 +795,11 @@
           <T n="value">-4</T>
         </U>
       </L>
-      <T n="test_gender_preference">True</T>
+      <V n="test_gender_preference" t="enabled">
+         <U n="enabled">
+         <T n="consider_exploration">True</T>
+          </U>
+         </V>
       <L n="topic_preferences">
         <T>28578<!--topics_SocialAvailability_Romance--></T>
       </L>
